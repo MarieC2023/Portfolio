@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'BrittanySignature';
+    src: url('assets/fonts/BrittanySignatureRegular.woff2') format('woff2'),
+         url('assets/fonts/BrittanySignatureRegular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 /******* GENERAL *******/
 /* spacing on all sections */
 #about,
@@ -15,6 +23,11 @@
 }
 #contact {
     padding-bottom: 4rem;
+}
+
+/*Header*/
+.font-logo {
+    font-family: 'BrittanySignature', cursive;
 }
 
 /* display background dark color on navbar scroll */
