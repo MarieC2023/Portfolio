@@ -7,7 +7,7 @@
   }
 
 /******* GENERAL *******/
-/* spacing on all sections */
+/* Espacement sur toutes les sections */
 #about,
 #skills,
 #portfolio,
@@ -26,16 +26,22 @@
 }
 
 /*Header*/
-.font-logo {
+#font-logo {
     font-family: 'BrittanySignature', cursive;
+    font-size: 2rem;
 }
 
-/* display background dark color on navbar scroll */
+#navbar {
+    background-color: black;
+    font-size: 1.25rem;
+}
+
+/* Affiche un fond foncé sur la navbar lors du défilement */
 .navbarScroll.navbarDark {
     background-color: #5b5b5b;
 }
 
-/* hero background image */
+/* Image de fond du hero */
 .bgimage {
     height: 100vh;
     max-height: 900px;
@@ -43,7 +49,7 @@
     background-size: cover;
     position: relative;
 }
-/* text css above hero image*/
+/* Style du texte au-dessus de l'image hero*/
 .hero_title {
     font-size: 4.5rem;
 }
@@ -56,10 +62,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: black;
 }
 
-/* about */
+/* À propos */
 .imageAboutPage {
     width: 100%;
 }
@@ -68,7 +74,7 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-/* skills */
+/* Compétences */
 .skillsText.card {
     height: 350px;
     cursor: pointer;
