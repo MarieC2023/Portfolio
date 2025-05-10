@@ -1,0 +1,15 @@
+/*CODE D'ORIGINE*/
+/* portfolio */
+#portfolio p {
+    text-align: center;
+}
+
+/* contact */
+.contactColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contactColumn i {
+    color: #198754;
+}

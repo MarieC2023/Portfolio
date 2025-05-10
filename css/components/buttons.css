@@ -1,0 +1,13 @@
+button, .btn {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  border: none;
+  padding: var(--spacing-s) var(--spacing-m);
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover, .btn:hover {
+  background-color: #e05555;
+}

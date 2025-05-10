@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-main);
+  line-height: 1.6;
+}
+
+h1, h2 {
+  font-family: var(--font-handwritten);
+  color: var(--color-white);
+}
+
+section {
+  padding: var(--spacing-l);
+  background-color: var(--color-bg);
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: var(--spacing-s);
+  border: 1px solid var(--color-secondary);
+  border-radius: var(--radius);
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  margin-bottom: var(--spacing-m);
+}
+
+form input:focus, form textarea:focus {
+  border-color: var(--color-accent);
+  outline: none;
+}
+/*CODE D'ORIGINE*/
+/* Espacement sur toutes les sections */
+/*#about,*/
+#skills,
+#portfolio,
+#contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#about h2,
+#skills h2,
+#portfolio h2,
+#contact h2 {
+    margin-bottom: 3rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}

@@ -1,0 +1,50 @@
+/* header {
+  background-color: var(--color-bg);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--spacing-m) var(--spacing-l);
+  border-bottom: 1px solid var(--color-secondary);
+}
+
+header nav a {
+  color: var(--color-text);
+  margin-left: var(--spacing-m);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: var(--color-accent);
+} */
+
+
+
+#navbar {
+  background-color: var(--color-bg); 
+  font-size: 1.25rem;
+  padding: var(--spacing-m) var(--spacing-l); 
+  border-bottom: 1px solid var(--color-secondary);
+  transition: background-color 0.3s;
+}
+
+.logoNav {
+  width: 30%;
+}
+
+
+/* Navigation links */
+#navbar .nav-link {
+  color: var(--color-text);
+  margin-left: var(--spacing-m);
+  transition: color 0.3s ease;
+}
+
+#navbar .nav-link:hover {
+  color: var(--color-accent);
+}
+
+/* Navbar background on scroll */
+.navbarScroll.navbarDark {
+  background-color: var(--color-secondary); /* #5b5b5b remplacé par variable */
+}
