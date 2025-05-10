@@ -7,7 +7,7 @@ body {
   line-height: 1.6;
 }
 
-h1, h2 {
+h2 {
   font-family: var(--font-handwritten);
   color: var(--color-white);
 }
