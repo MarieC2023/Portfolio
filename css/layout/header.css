@@ -10,7 +10,6 @@
   width: 30%;
 }
 
-/* Navigation links */
 #navbar .nav-link {
   color: var(--color-text);
   margin-left: var(--spacing-m);
@@ -21,7 +20,11 @@
   color: var(--color-accent);
 }
 
+nav#navbar {
+  transition: background-color 0.3s ease;
+}
+
 /* Navbar background on scroll */
-.navbarScroll.navbarDark {
-  background-color: var(--color-secondary); /* #5b5b5b remplacé par variable */
+nav#navbar.navbarScroll.navbarDark {
+  background-color: var(--color-secondary); 
 }

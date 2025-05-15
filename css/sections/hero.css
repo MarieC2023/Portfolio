@@ -8,7 +8,6 @@
   text-align: center;
 }
 
-/* Conteneur du texte centré */
 .hero-text {
   color: var(--color-text);
   text-align: center;
@@ -18,17 +17,17 @@
     transform: translate(-50%, -50%);
 }
 
-.hero_title {
+.hero-title {
   font-family: 'BrittanySignature', cursive;
   font-size: 6rem;
   margin-top: auto;
   color: var(--color-text);
 }
 
-.hero_desc {
+.hero-subtitle {
   font-family: 'BrittanySignature', cursive;
   font-size: 3rem;
    padding-top: 80px;
   margin-top: var(--spacing-m, 2rem);
-  color: var(--color-secondary);
+  color: var(--color-accent);
 }
