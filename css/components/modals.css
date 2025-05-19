@@ -1,0 +1,40 @@
+/* Modal */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my-modal-content {
+  background: var(--color-secondary);
+  color: var(--color-text);
+  font-family: var(--font-main);
+  padding: var(--spacing-l);
+  border-radius: var(--radius);
+  max-width: 600px;
+  max-height: 80%;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.close {
+  position: absolute;
+  top: var(--spacing-s);
+  right: var(--spacing-m);
+  font-size: 2rem;
+  cursor: pointer;
+  color: var(--color-accent);
+  transition: transform 0.2s ease;
+}
+
+.close:hover {
+  transform: scale(1.2);
+}

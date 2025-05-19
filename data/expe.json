@@ -1,0 +1,144 @@
+[
+  {
+    "id": "exp1",
+    "title": "Agent Commerciale des Trains",
+    "company": "SNCF",
+    "location": "Nantes / Le Mans",
+    "period": "2008 - 2012",
+    "missions": [
+      "Vérification des titres de transport et assistance aux voyageurs en situation de mobilité.",
+      "Application stricte des réglementations ferroviaires et des protocoles de sécurité.",
+      "Gestion des conflits clients et intervention en cas de situation tendue.",
+      "Interface entre l’entreprise et les voyageurs pour assurer une communication fluide."
+    ],
+    "skills": [
+      "Rigueur et respect des procédures",
+      "Gestion du stress et réactivité",
+      "Relation client et communication"
+    ],
+    "linkToTesting": [
+      "Respect des processus et rigueur",
+      "Détection d’anomalies et application des bonnes pratiques",
+      "Collaboration et communication"
+    ]
+  },
+  {
+    "id": "exp2",
+    "title": "Conseillère Principale d’Éducation - Cheffe de Service",
+    "company": "Éducation Nationale",
+    "location": "Moulins-le-Carbonnel / Nantes",
+    "period": "Septembre 2014 – Août 2021",
+    "missions": [
+      "Encadrement et management des équipes éducatives.",
+      "Élaboration et gestion des emplois du temps des élèves et des assistants d’éducation.",
+      "Suivi des absences et gestion des élèves via des logiciels dédiés.",
+      "Coordination avec les partenaires éducatifs et suivi individuel des élèves.",
+      "Gestion des situations de crise et application du règlement intérieur."
+    ],
+    "tools": [
+      "Pronote",
+      "Logiciel interne",
+      "LibreOffice"
+    ],
+    "skills": [
+      "Leadership et organisation",
+      "Analyse et prise de décision",
+      "Communication et diplomatie"
+    ],
+    "linkToTesting": [
+      "Méthodologie et rigueur",
+      "Analyse des processus et remontée d’anomalies",
+      "Collaboration interservices et reporting"
+    ]
+  },
+  {
+    "id": "exp3",
+    "title": "Chargée de Mission – Carrefour de l’Orientation & Journal de l’Orientation",
+    "company": "Agglomération du Choletais",
+    "location": "Cholet",
+    "period": "Septembre 2021 – Février 2023",
+    "missions": [
+      "Organisation de la 10ᵉ édition du Carrefour de l’Orientation (360 exposants, 52 500 visiteurs).",
+      "Gestion logistique et planification du transport de 18 000 élèves.",
+      "Coordination avec des partenaires institutionnels et économiques.",
+      "Rédaction et conception du Journal de l’Orientation (100 000 exemplaires)."
+    ],
+    "tools": [
+      "LibreOffice",
+      "Outils de communication internes"
+    ],
+    "skills": [
+      "Gestion de projet et planification",
+      "Communication et relationnel",
+      "Organisation et rigueur"
+    ],
+    "linkToTesting": [
+      "Approche méthodique et rigoureuse",
+      "Analyse des besoins et anticipation",
+      "Reporting et documentation"
+    ]
+  },
+  {
+    "id": "exp4",
+    "title": "Assistante Ordonnancement",
+    "company": "Bodet",
+    "location": "Cholet",
+    "period": "Septembre - Novembre 2023",
+    "missions": [
+      "Planification et suivi de la production pour optimiser les délais de fabrication.",
+      "Coordination entre les services de production, logistique et approvisionnement.",
+      "Ajustement des plannings en fonction des aléas et priorisation des tâches."
+    ],
+    "tools": [
+      "ERP (nom inconnu)"
+    ],
+    "skills": [
+      "Gestion des flux et planification",
+      "Analyse et anticipation",
+      "Coordination interservices"
+    ],
+    "linkToTesting": [
+      "Planification et organisation",
+      "Analyse des données et reporting",
+      "Collaboration et communication"
+    ]
+  },
+  {
+    "id": "exp5",
+    "title": "Adjointe Administrative",
+    "company": "CHI Lys Hyrôme",
+    "location": "Chemillé-en-Anjou",
+    "period": "Janvier - Juillet 2024",
+    "missions": [
+      "Accueil et admission des patients.",
+      "Gestion et suivi des dossiers administratifs et de la facturation des patients.",
+      "Coordination interservices pour fluidifier la gestion des patients.",
+      "Réécriture complète des procédures internes du service."
+    ],
+    "tools": [
+      "Suite Office (Word, Excel)",
+      "Logiciels internes hospitaliers"
+    ],
+    "skills": [
+      "Organisation et rigueur",
+      "Communication et relationnel",
+      "Documentation et conformité"
+    ],
+    "linkToTesting": [
+      "Documentation et traçabilité",
+      "Vérification et contrôle",
+      "Collaboration interservices"
+    ]
+  },
+  {
+    "id": "exp6",
+    "title": "Synthèse des Soft Skills",
+    "summary": [
+      "Rigueur et respect des processus : application stricte des protocoles et suivi des anomalies.",
+      "Analyse et prise de décision : identification des erreurs et proposition de solutions adaptées.",
+      "Adaptabilité et gestion des imprévus : capacité à ajuster les tests selon les évolutions d’un projet.",
+      "Communication et rédaction : rédaction claire et précise de rapports et documentation.",
+      "Collaboration interservices : aptitude à travailler avec des équipes techniques et fonctionnelles."
+    ]
+  }
+]

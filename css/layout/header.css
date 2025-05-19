@@ -7,6 +7,8 @@
 
 .logoNav {
   width: 30%;
+  min-height: 75px;
+  min-width: 75px;
 }
 
 #navbar .nav-link {
