@@ -3,7 +3,6 @@
   font-size: 1.25rem;
   padding: var(--spacing-m) var(--spacing-l); 
   border-bottom: 1px solid var(--color-secondary);
-  transition: background-color 0.3s;
 }
 
 .logoNav {
