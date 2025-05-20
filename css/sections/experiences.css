@@ -1,0 +1,45 @@
+.soft-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.skill-card {
+    background: var(--color-secondary);
+    padding: 20px;
+    margin: 5px;
+    border-radius: var(--radius);
+    width: calc(33.333% - 70px);
+    min-width: 280px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    transition: transform 0.2s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+}
+
+.skill-card h4 {
+    margin-bottom: 0.5rem;
+}
+
+.skill-card p {
+    padding: 15px;
+    margin: 0;
+}
+
+@media (max-width: 900px) {
+    .skill-card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 600px) {
+    .skill-card {
+        width: 100%;
+    }
+}

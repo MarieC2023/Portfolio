@@ -16,13 +16,70 @@
   background: var(--color-secondary);
   color: var(--color-text);
   font-family: var(--font-main);
-  padding: var(--spacing-l);
+  padding: 2.5rem; 
   border-radius: var(--radius);
-  max-width: 600px;
-  max-height: 80%;
+  max-width: 800px;
+  width: 90%;
+  max-height: 85%;
   overflow-y: auto;
   position: relative;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+  transition: all 0.3s ease-in-out; 
+}
+
+.accent-title {
+  color: var(--color-accent);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  position: relative;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+.accent-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 40px;
+  background-color: var(--color-accent);
+  border-radius: 2px;
+}
+
+
+.downloads {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--color-accent);
+}
+
+.downloads h5 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--color-accent);
+  font-weight: bold;
+}
+
+.downloads ul {
+  list-style: none;
+  padding: 0;
+}
+
+.downloads li {
+  margin-bottom: 0.4rem;
+}
+
+.downloads a {
+  text-decoration: none;
+  color: var(--color-text);
+  transition: color 0.2s ease;
+}
+
+.downloads a:hover {
+  color: var(--color-accent);
+  text-decoration: underline;
 }
 
 .close {

@@ -76,6 +76,24 @@
       "Approche méthodique et rigoureuse",
       "Analyse des besoins et anticipation",
       "Reporting et documentation"
+    ],
+    "downloads": [
+      {
+        "label": "Journal de l’Orientation n°4 – Mars 2022 – (Gestion et Comptabilité - Industrie du futur)",
+        "file": "assets/documents/JDO_N4_mars_2022.pdf"
+      },
+      {
+        "label": "Journal de l’Orientation n°5 – Mai 2022 – (L'agriculture - L'aménagement paysager)",
+        "file": "assets/documents/JDO_N5_mai_2022.pdf"
+      },
+      {
+        "label": "Journal de l’Orientation n°6 – Octobre 2022 – (Édition spéciale Carrefour de l'Orientation)",
+        "file": "assets/documents/JDO_N6_octobre_2022_carrefour.pdf"
+      },
+      {
+        "label": "Journal de l’Orientation n°7 – Février 2023 – (L'heure du choix - Six filières qui recrutent)",
+        "file": "assets/documents/JDO_N7_fevrier_2023.pdf"
+      }
     ]
   },
   {
@@ -134,11 +152,26 @@
     "id": "exp6",
     "title": "Synthèse des Soft Skills",
     "summary": [
-      "Rigueur et respect des processus : application stricte des protocoles et suivi des anomalies.",
-      "Analyse et prise de décision : identification des erreurs et proposition de solutions adaptées.",
-      "Adaptabilité et gestion des imprévus : capacité à ajuster les tests selon les évolutions d’un projet.",
-      "Communication et rédaction : rédaction claire et précise de rapports et documentation.",
-      "Collaboration interservices : aptitude à travailler avec des équipes techniques et fonctionnelles."
+      {
+        "title": "Rigueur et respect des processus",
+        "description": "Application stricte des protocoles et suivi des anomalies."
+      },
+      {
+        "title": "Analyse et prise de décision",
+        "description": "Identification des erreurs et proposition de solutions adaptées."
+      },
+      {
+        "title": "Adaptabilité et gestion des imprévus",
+        "description": "Capacité à ajuster les tests selon les évolutions d’un projet."
+      },
+      {
+        "title": "Communication et rédaction",
+        "description": "Rédaction claire et précise de rapports et documentation."
+      },
+      {
+        "title": "Collaboration interservices",
+        "description": "Aptitude à travailler avec des équipes techniques et fonctionnelles."
+      }
     ]
   }
 ]
