@@ -1,9 +1,12 @@
-/*CODE D'ORIGINE*/
-
-/* À propos */
 .imageAboutPage {
     width: 100%;
     border-radius: 50%;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
+
+#about .row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}

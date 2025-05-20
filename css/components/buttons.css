@@ -31,7 +31,6 @@ button, #btn {
   margin: 20px auto;                 
 }
 
-
 button:hover, #btn:hover {
   background-color: #e05555;
   color: var(--color-white);
