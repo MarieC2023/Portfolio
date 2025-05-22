@@ -59,8 +59,8 @@ function setupProjectModal(data) {
           workDoneSection.innerHTML = "<h4>Travail réalisé</h4><ul>" +
             item["work-done"].map(w => `<li>${w}</li>`).join("") + "</ul>";
           modalDetails.appendChild(workDoneSection);
-        }     
-       
+        }
+
         // Lien GitHub
         if (item.lien_github) {
           const githubLink = document.createElement("div");
@@ -96,11 +96,12 @@ function setupProjectModal(data) {
     modal.style.display = "none";
   };
 
-  window.onclick = (event) => {
+  window.addEventListener("click", (event) => {
     if (event.target === modal) {
       modal.style.display = "none";
     }
-  };
+  });
+
 }
 
 

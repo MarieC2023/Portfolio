@@ -112,11 +112,12 @@ function setupModal(data) {
     modal.style.display = "none";
   };
 
-  window.onclick = (event) => {
+  window.addEventListener("click", (event) => {
     if (event.target === modal) {
       modal.style.display = "none";
     }
-  };
+  });
+
 }
 
 
