@@ -1,6 +1,4 @@
-/*CODE D'ORIGINE*/
 
-/* Compétences */
 .skillsText.card {
     height: 350px;
     cursor: pointer;
@@ -10,6 +8,7 @@
     height: 150px;
     object-fit: contain;
 }
+
 #skills p {
     text-align: center;
 }

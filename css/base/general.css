@@ -35,12 +35,13 @@ form input:focus, form textarea:focus {
 /*CODE D'ORIGINE*/
 /* Espacement sur toutes les sections */
 /*#about,*/
+#experience,
 #skills,
 #portfolio,
 #contact {
-    margin-top: 4rem;
     padding-top: 4rem;
 }
+
 #about h2,
 #skills h2,
 #portfolio h2,
