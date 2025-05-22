@@ -4,7 +4,7 @@
   margin-top: 20px; 
 }
 
-button, #btn {
+button, .my-btn {
   background-color: transparent;
   color: var(--color-accent);
   border: 2px solid var(--color-accent);
@@ -31,7 +31,7 @@ button, #btn {
   margin: 20px auto;                 
 }
 
-button:hover, #btn:hover {
+button:hover, .my-btn:hover {
   background-color: #e05555;
   color: var(--color-white);
 }

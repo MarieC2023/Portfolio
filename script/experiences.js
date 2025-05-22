@@ -28,7 +28,7 @@ function createExperienceTimeline() {
               <h3>${item.title}</h3>
               <h4>${item.company} - ${item.location}</h4>
               <p><em>${item.period}</em></p>
-              <button id="btn" class="open-modal btn-container" data-id="${item.id}">En savoir plus</button>
+              <button class="open-modal btn-container my-btn" data-id="${item.id}">En savoir plus</button>
             </div>
           `;
 
