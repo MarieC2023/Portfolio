@@ -44,4 +44,13 @@
   font-size: 1.5rem;
 }
 
+#skills .project-card img {
+  width: 120px; /* ou une autre valeur adaptée */
+  height: auto;
+  max-height: 100px;
+  object-fit: contain;
+  padding: 10px;
+  border-radius: var(--radius);
+  margin-bottom: 1rem;
+}
 

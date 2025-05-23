@@ -1,38 +1,27 @@
-// Function to dynamically create HTML elements from the JSON file
 function createSkillsFromJSON() {
-    const container = document.querySelector("#skills .container");
-    let row = document.createElement("div");
-    row.classList.add("row");
+  const container = document.querySelector("#skills .container");
 
-    // Load the JSON file
-    fetch("data/skills.json")
-        .then((response) => response.json())
-        .then((data) => {
-            // Iterate through the JSON data and create HTML elements
-            data.forEach((item, index) => {
-                const card = document.createElement("div");
-                card.classList.add("col-lg-4", "mt-4");
-                card.innerHTML = `
-                    <div class="card skillsText">
-                        <div class="card-body">
-                            <img src="./images/skills/${item.image}" />
-                            <h3 class="card-title mt-3">${item.title}</h3>
-                            <p class="card-text mt-3">${item.text}</p>
-                        </div>
-                    </div>
-                `;
+  // Créer un conteneur flex identique à .projects-container
+  const skillsContainer = document.createElement("div");
+  skillsContainer.classList.add("projects-container");
 
-                // Append the card to the current row
-                row.appendChild(card);
+  fetch("data/skills.json")
+    .then((response) => response.json())
+    .then((data) => {
+      data.forEach((item) => {
+        const card = document.createElement("div");
+        card.classList.add("project-card");
+        card.innerHTML = `
+          <img src="./images/skills/${item.image}" alt="${item.title}">
+          <h3>${item.title}</h3>
+          <p>${item.text}</p>
+        `;
 
-                // If the index is a multiple of 3 or it's the last element, create a new row
-                if ((index + 1) % 3 === 0 || index === data.length - 1) {
-                    container.appendChild(row);
-                    row = document.createElement("div");
-                    row.classList.add("row");
-                }
-            });
-        });
+        skillsContainer.appendChild(card);
+      });
+
+      container.appendChild(skillsContainer);
+    });
 }
 
 createSkillsFromJSON();
