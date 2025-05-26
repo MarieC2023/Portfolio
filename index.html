@@ -172,17 +172,43 @@
         </div>
     </section>
 
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="text-center">Contactez-moi</h2>
+            <form class="contact-form" id="contact-form" action="https://formsubmit.co/marie.collet2023@gmail.com"
+                method="POST" aria-busy="false">
+                <!-- Anti-spam : désactive le captcha -->
+                <input type="hidden" name="_captcha" value="false">
 
+                <!-- Honeypot invisible -->
+                <input type="text" name="website" id="website" autocomplete="off" tabindex="-1"
+                    style="position:absolute; left:-9999px;" aria-hidden="true" />
 
-    <!-- skills section
-    <section id="skills">
-        <div class="container mt-3">
-            <h2 class="text-center">Mes compétences</h2>
+                <div class="form-group">
+                    <label for="name">Nom et Prénom</label>
+                    <input type="text" id="name" name="name" required autocomplete="name" />
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Adresse email</label>
+                    <input type="email" id="email" name="email" required autocomplete="email"
+                        pattern="^[^@\s]+@[^@\s]+\.[^@\s]+$"
+                        title="Entrez une adresse email valide (ex: nom@domaine.com)" />
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+
+                <div id="form-message" class="form-message" aria-live="polite"></div>
+                <button type="submit" class="my-btn">Envoyer</button>
+            </form>
         </div>
-    </section> -->
-
-    <!-- contact section-->
-    <section id="contact">
+    </section>
+    
+    <!-- Element pour futur footer-->
+    <!-- <section id="contact">
         <div class="container mt-3 contactContent">
             <h2 class="text-center">Contactez-moi</h2>
             <div class="row">
@@ -203,14 +229,14 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!-- load javascript after loading all html content -->
     <script src="script/navbar.js"></script>
     <script src="script/experiences.js"></script>
     <script src="script/skills.js"></script>
     <script src="script/portfolio.js"></script>
-
+    <script src="script/contact.js"></script>
 </body>
 
 </html>

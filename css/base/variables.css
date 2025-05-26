@@ -6,6 +6,9 @@
   --color-secondary: #2C3E50;        /* Gris bleuté */
   --color-accent: #FF6B6B;           /* Corail */
   --color-white: #FFFFFF;
+  --color-error: #C0392B;
+  --color-success: #27AE60;
+
 
   /* Typographies */
   --font-main: 'Inter', sans-serif;  /* Police de base */

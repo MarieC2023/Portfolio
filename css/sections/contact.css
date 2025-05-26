@@ -1,28 +1,89 @@
-/* Formulaire de contact */
-form input, form textarea {
+/* Section contact */
+.contact-section {
+  margin: 4rem 0;
+  padding: 2rem;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-main, Arial, sans-serif);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-form .form-group {
+  margin-bottom: var(--spacing-m);
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: var(--color-text);
+}
+
+.contact-form input,
+.contact-form textarea {
   width: 100%;
   padding: var(--spacing-s);
   border: 1px solid var(--color-secondary);
   border-radius: var(--radius);
   background-color: var(--color-bg);
   color: var(--color-text);
-  margin-bottom: var(--spacing-m);
+  font-family: var(--font-main);
+  font-size: 1rem;
 }
 
-form input:focus, form textarea:focus {
+.contact-form input:focus,
+.contact-form textarea:focus {
   border-color: var(--color-accent);
   outline: none;
 }
 
-/*CODE D'ORIGINE*/
-
-
-/* contact */
-.contactColumn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* Honeypot caché */
+.honeypot {
+  display: none;
 }
-.contactColumn i {
-    color: #198754;
+
+/* Message */
+.form-message {
+  margin-top: 1rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius);
+  font-size: 1rem;
+  background-color: transparent;
+  animation: fadeSlide 0.4s ease;
+}
+
+.form-message--success {
+  color: #fff;
+  background-color: var(--color-success);
+}
+
+.form-message--error {
+  color: #fff;
+  background-color: var(--color-error);
+}
+
+@keyframes fadeSlide {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
