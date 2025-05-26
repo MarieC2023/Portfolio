@@ -1,28 +1,102 @@
-
-.skillsText.card {
-    height: 350px;
-    cursor: pointer;
-}
-.skillsText img {
-    width: 100%;
-    height: 150px;
-    object-fit: contain;
+.skills-section {
+  margin: 4rem 0;
+  padding: 2rem 0;
+  background: var(--color-bg);
+  overflow: hidden;
 }
 
-#skills p {
-    text-align: center;
+.skills-marquee {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
+  -webkit-mask-image: linear-gradient(to right, transparent, black 5%, black 95%, transparent);
 }
-.skillsIcon {
-    font-size: 36px;
-    text-align: center;
-    width: 100%;
+
+
+.skills-marquee:hover .skills-track {
+  animation-play-state: paused;
 }
-.card-title {
-    text-align: center;
+
+.skills-track {
+  display: flex;
+  gap: 1.5rem;
+  animation: scroll-left 40s linear infinite;
+  align-items: center;
+  width: max-content; 
 }
-.card:hover .skillsIcon {
-    color: #008000;
+
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
-.skillsText:hover {
-    border: 1px solid #008000;
+
+.skill-card {
+  background-color: var(--color-secondary);
+  border-radius: var(--radius);
+  padding: 1rem;
+  min-width: 120px;
+  max-width: 140px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
+
+.skill-card:hover {
+  transform: scale(1.05);
+}
+
+.skill-card img {
+  max-height: 60px;
+  max-width: 100%;
+  object-fit: contain;
+  margin-bottom: 0.5rem;
+}
+
+.skill-card span {
+  font-size: 0.9rem;
+  color: var(--color-text);
+  font-family: var(--font-main);
+}
+
+
+/*MediaQueries*/
+
+@media (max-width: 768px) {
+  .skill-card {
+    min-width: 100px;
+    padding: 0.75rem;
+  }
+
+  .skill-card img {
+    max-height: 50px;
+  }
+
+  .skill-card span {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-card {
+    min-width: 80px;
+    padding: 0.5rem;
+  }
+
+  .skill-card img {
+    max-height: 40px;
+  }
+
+  .skill-card span {
+    font-size: 0.75rem;
+  }
+}
+

@@ -1,32 +1,72 @@
 [
-    {
-        "image": "html-css.jpg",
-        "title": "HTML - CSS",
-        "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
-    },
-    {
-        "image": "js.jpg",
-        "title": "javascript",
-        "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
-    },
-    {
-        "image": "react.jpg",
-        "title": "React",
-        "text": "Création d’applications React, création de composants et manipulation de leur état"
-    },
-    {
-        "image": "gestion-de-projet.png",
-        "title": "Gestion de projet",
-        "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet"
-    },
-    {
-        "image": "optimisation-et-debug.png",
-        "title": "Optimisation et debug",
-        "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne"
-    },
-    {
-        "image": "test.png",
-        "title": "Test",
-        "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
-    }
+  {
+    "id": "html5",
+    "image": "images/skills-logos/html-5.svg",
+    "title": "HTML5"
+  },
+  {
+    "id": "css3",
+    "image": "images/skills-logos/css-3.svg",
+    "title": "CSS3"
+  },
+  {
+    "id": "javascript",
+    "image": "images/skills-logos/javascript.svg",
+    "title": "JavaScript"
+  },
+  {
+    "id": "react",
+    "image": "images/skills-logos/react.svg",
+    "title": "React"
+  },
+  {
+    "id": "git",
+    "image": "images/skills-logos/git-icon.svg",
+    "title": "Git"
+  },
+  {
+    "id": "github",
+    "image": "images/skills-logos/github-icon.svg",
+    "title": "GitHub"
+  },
+  {
+    "id": "vscode",
+    "image": "images/skills-logos/visual-studio-code.svg",
+    "title": "Visual Studio"
+  },
+  {
+    "id": "cypress",
+    "image": "images/skills-logos/cypress.svg",
+    "title": "Cypress"
+  },
+  {
+    "id": "postman",
+    "image": "images/skills-logos/postman.svg",
+    "title": "Postman"
+  },
+  {
+    "id": "swagger",
+    "image": "images/skills-logos/swagger.svg",
+    "title": "Swagger"
+  },
+  {
+    "id": "jira",
+    "image": "images/skills-logos/jira.svg",
+    "title": "Jira"
+  },
+  {
+    "id": "notion",
+    "image": "images/skills-logos/notion.svg",
+    "title": "Notion"
+  },
+  {
+    "id": "trello",
+    "image": "images/skills-logos/trello.svg",
+    "title": "Trello"
+  },
+  {
+    "id": "slack",
+    "image": "images/skills-logos/slack.svg",
+    "title": "Slack"
+  }
 ]
