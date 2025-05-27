@@ -41,7 +41,6 @@
   }
 }
 
-
 /* ===== MOBILE LARGE : max 425px ===== */
 @media (max-width: 425px) {
   .imageAboutPage {
@@ -55,7 +54,6 @@
   }
 
 }
-
 
 /* ===== MOBILE PETIT : max 320px ===== */
 @media (max-width: 320px) {

@@ -95,24 +95,24 @@ nav.navbar.navbar-expand-lg.fixed-top.navbar-dark.navbarScroll {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0; 
+    margin: 0;
   }
 
   .logoNav {
     max-width: 75px;
     height: 40px;
-    margin: 0; 
+    margin: 0;
   }
 
   .navbar-toggler {
-    margin: 0; 
+    margin: 0;
   }
 
-button.navbar-toggler {
+  button.navbar-toggler {
     padding-top: .3125rem;
     padding-bottom: .3125rem;
     margin-right: 1rem;
-}
+  }
 
   .navbar-nav {
     gap: 0.4rem;
@@ -122,4 +122,3 @@ button.navbar-toggler {
     font-size: 0.9rem;
   }
 }
-

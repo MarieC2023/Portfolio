@@ -16,7 +16,7 @@
   background: var(--color-secondary);
   color: var(--color-text);
   font-family: var(--font-main);
-  padding: 2.5rem; 
+  padding: 2.5rem;
   border-radius: var(--radius);
   max-width: 800px;
   width: 90%;
@@ -24,7 +24,7 @@
   overflow-y: auto;
   position: relative;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
-  transition: all 0.3s ease-in-out; 
+  transition: all 0.3s ease-in-out;
 }
 
 .accent-title {
@@ -49,7 +49,7 @@
 }
 
 ul {
-  list-style-type: circle;  
+  list-style-type: circle;
 }
 
 ul li::marker {
@@ -62,7 +62,8 @@ ul li::marker {
   border-top: 1px solid var(--color-accent);
 }
 
-.downloads h5, .downloads h4 {
+.downloads h5,
+.downloads h4 {
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
   color: var(--color-accent);
@@ -101,4 +102,78 @@ ul li::marker {
 
 .close:hover {
   transform: scale(1.2);
+}
+
+/* ===== TABLETTE : max 768px ===== */
+@media (max-width: 768px) {
+  .my-modal-content {
+    padding: 2rem;
+    max-width: 95%;
+    font-size: 1rem;
+  }
+
+  .accent-title {
+    font-size: 1.1rem;
+  }
+
+  .downloads h5,
+  .downloads h4 {
+    font-size: 1rem;
+  }
+}
+
+/* ===== MOBILE LARGE : max 425px ===== */
+@media (max-width: 425px) {
+  .my-modal-content {
+    padding: 1.5rem;
+    max-width: 95%;
+    font-size: 0.95rem;
+  }
+
+  .accent-title {
+    font-size: 1rem;
+  }
+
+  .accent-title::after {
+    width: 30px;
+    height: 2px;
+  }
+
+  .close {
+    font-size: 1.8rem;
+    top: 10px;
+    right: 16px;
+  }
+
+  .downloads h5,
+  .downloads h4 {
+    font-size: 0.95rem;
+  }
+}
+
+/* ===== MOBILE PETIT : max 320px ===== */
+@media (max-width: 320px) {
+  .my-modal-content {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .accent-title {
+    font-size: 0.95rem;
+  }
+
+  .accent-title::after {
+    width: 25px;
+  }
+
+  .close {
+    font-size: 1.5rem;
+    top: 8px;
+    right: 12px;
+  }
+
+  .downloads h5,
+  .downloads h4 {
+    font-size: 0.9rem;
+  }
 }

@@ -11,7 +11,7 @@
   color: var(--color-text);
   border-radius: var(--radius);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  width: calc(33.333% - 40px); 
+  width: calc(33.333% - 40px);
   min-width: 280px;
   max-width: 400px;
   box-sizing: border-box;
@@ -29,12 +29,11 @@
 
 .project-card img {
   width: 700px;
-  max-height: 200px; 
+  max-height: 200px;
   object-fit: cover;
   border-radius: var(--radius);
   margin-bottom: 1rem;
   padding: 10px;
-  
 }
 
 .project-card h5 {
@@ -45,7 +44,7 @@
 }
 
 #skills .project-card img {
-  width: 120px; /* ou une autre valeur adaptée */
+  width: 120px;
   height: auto;
   max-height: 100px;
   object-fit: contain;
@@ -54,3 +53,56 @@
   margin-bottom: 1rem;
 }
 
+/* ===== TABLETTE : max 768px ===== */
+@media (max-width: 768px) {
+  .project-card {
+    width: calc(50% - 30px);
+    padding: 15px;
+  }
+
+  .project-card h5 {
+    font-size: 1.3rem;
+  }
+
+  .project-card img {
+    width: 100%;
+    max-height: 180px;
+    padding: 8px;
+  }
+}
+
+/* ===== MOBILE LARGE : max 425px ===== */
+@media (max-width: 425px) {
+  .project-card {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .project-card h5 {
+    font-size: 1.15rem;
+  }
+
+  .project-card img {
+    width: 100%;
+    max-height: 160px;
+    padding: 6px;
+  }
+}
+
+/* ===== MOBILE PETIT : max 320px ===== */
+@media (max-width: 320px) {
+  .project-card {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .project-card h5 {
+    font-size: 1rem;
+  }
+
+  .project-card img {
+    width: 100%;
+    max-height: 140px;
+    padding: 5px;
+  }
+}

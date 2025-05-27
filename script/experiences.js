@@ -10,7 +10,7 @@ function createExperienceTimeline() {
         if (item.id === "exp6") {
           item.summary.forEach(skill => {
             const card = document.createElement("div");
-            card.classList.add("skill-card");
+            card.classList.add("skill-card", "soft-skill");
             card.innerHTML = `
               <h4>${skill.title}</h4>
               <p>${skill.description}</p>
