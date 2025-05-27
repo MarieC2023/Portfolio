@@ -9,6 +9,11 @@ html body {
   scroll-behavior: smooth;
 }
 
+body, html {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 
 h2 {
   font-family: var(--font-handwritten);
@@ -43,7 +48,7 @@ form input:focus, form textarea:focus {
 
 /*CODE D'ORIGINE*/
 /* Espacement sur toutes les sections */
-/*#about,*/
+#about,
 #experience,
 #skills,
 #portfolio,
@@ -54,8 +59,10 @@ form input:focus, form textarea:focus {
 #about h2,
 #skills h2,
 #portfolio h2,
-#contact h2 {
+#contact h2,
+#experience h2 {
     margin-bottom: 3rem;
+    padding-top: 4rem;
 }
 #contact {
     padding-bottom: 4rem;

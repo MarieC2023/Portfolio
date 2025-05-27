@@ -35,3 +35,39 @@ button:hover, .my-btn:hover {
   background-color: #e05555;
   color: var(--color-white);
 }
+
+/* ===== TABLETTE : max 768px ===== */
+@media (max-width: 768px) {
+
+  .btn-container {
+    margin-top: 1rem;
+  }
+}
+
+
+/* ===== MOBILE LARGE : max 425px ===== */
+@media (max-width: 425px) {
+
+  .my-btn {
+    font-size: 1rem;
+    padding: 0.6rem 1rem;
+    min-width: auto;
+    width: 100%;
+    max-width: 280px;
+  }
+}
+
+
+/* ===== MOBILE PETIT : max 320px ===== */
+@media (max-width: 320px) {
+
+  .my-btn {
+    font-size: 0.95rem;
+    padding: 0.5rem 0.8rem;
+    max-width: 260px;
+  }
+
+  .btn-container {
+    padding: 0 1rem;
+  }
+}

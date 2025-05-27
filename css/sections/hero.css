@@ -1,39 +1,23 @@
 .homepage {
-  background-color: var(--color-bg); 
-  min-height: 60vh;
+  background-color: var(--color-bg);
+  min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  justify-content: end;
+  justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 2rem 1rem;
-}
-
-.hero-text {
-  color: var(--color-text);
-  text-align: center;
-    
+  padding: 4rem 1rem;
 }
 
 .hero-title {
   font-family: 'BrittanySignature', cursive;
-  font-size: 6rem;
- 
+  font-size: clamp(3rem, 8vw, 6rem);
   color: var(--color-text);
+  margin: 0;
 }
 
 .hero-subtitle {
   font-family: 'BrittanySignature', cursive;
-  font-size: 3rem;
-  margin-top: 2rem;
+  font-size: clamp(1.5rem, 4vw, 3rem);
   color: var(--color-accent);
-}
-
-@media (max-width: 768px) {
-  .hero-title {
-    font-size: 4rem;
-  }
-  .hero-subtitle {
-    font-size: 2rem;
-  }
+  margin-top: 1rem;
 }

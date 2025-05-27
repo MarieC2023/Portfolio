@@ -46,3 +46,45 @@
 .footer-icons svg {
     display: block;
 }
+
+/* ===============================
+   Responsive global : Tablette
+   =============================== */
+@media (max-width: 992px) {
+    .footer-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer-text {
+        white-space: normal;
+        margin: 0 auto 1rem;
+    }
+
+    .footer-icons {
+        justify-content: center;
+    }
+}
+
+/* ===============================
+   Responsive global : Mobile
+   =============================== */
+@media (max-width: 576px) {
+    .footer {
+        padding: 1rem;
+    }
+
+    .footer-text {
+        font-size: 0.9rem;
+    }
+
+    .footer-icons svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    .footer-icons {
+        gap: 0.75rem;
+    }
+}

@@ -19,3 +19,13 @@
 @import url('./components/cards.css');
 @import url('./components/modals.css');
 @import url('./components/timeline.css');
+
+/* * {
+  outline: 1px solid red;
+}  */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

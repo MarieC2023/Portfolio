@@ -1,12 +1,72 @@
 .imageAboutPage {
-    width: 100%;
-    border-radius: 50%;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
-
 
 #about .row {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+}
+
+/* ===== TABLETTE : max 768px ===== */
+@media (max-width: 768px) {
+  #about .row {
+    flex-direction: column;
+  }
+
+  #about .col-lg-4 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .imageAboutPage {
+    max-width: 250px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+
+  #about .col-lg-8 {
+    text-align: left;
+    width: 100%;
+    max-width: 600px;
+  }
+
+  #about p,
+  #about li {
+    font-size: 1.05rem;
+  }
+}
+
+
+/* ===== MOBILE LARGE : max 425px ===== */
+@media (max-width: 425px) {
+  .imageAboutPage {
+    max-width: 200px;
+    margin-bottom: 1rem;
+  }
+
+  #about p,
+  #about li {
+    font-size: 1rem;
+  }
+
+}
+
+
+/* ===== MOBILE PETIT : max 320px ===== */
+@media (max-width: 320px) {
+  .imageAboutPage {
+    max-width: 150px;
+    margin-bottom: 1rem;
+  }
+
+  #about p,
+  #about li {
+    font-size: 0.95rem;
+  }
+
 }
