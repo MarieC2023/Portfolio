@@ -29,3 +29,29 @@ nav#navbar {
 nav#navbar.navbarScroll.navbarDark {
   background-color: var(--color-secondary); 
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .logoNav {
+    width: 50%; 
+    min-height: 60px;
+    min-width: 60px;
+    margin-right: auto; 
+  }
+
+  #navbar .nav-link {
+    margin-left: 0;
+    padding: var(--spacing-s) 0;
+    text-align: center;
+  }
+
+  #navbar .navbar-nav {
+    margin-top: var(--spacing-m);
+  }
+
+  .navbar-collapse {
+    background-color: var(--color-bg);
+    padding: var(--spacing-m);
+    border-radius: var(--radius);
+  }
+} 

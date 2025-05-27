@@ -6,7 +6,9 @@ html body {
   font-family: var(--font-main);
   line-height: 1.6;
   font-size: var(--font-size);
+  scroll-behavior: smooth;
 }
+
 
 h2 {
   font-family: var(--font-handwritten);
@@ -32,6 +34,13 @@ form input:focus, form textarea:focus {
   border-color: var(--color-accent);
   outline: none;
 }
+
+/* Accessibilité clavier - focus visible */
+:focus-visible {
+  outline: 2px dashed var(--color-accent);
+  outline-offset: 4px;
+}
+
 /*CODE D'ORIGINE*/
 /* Espacement sur toutes les sections */
 /*#about,*/
