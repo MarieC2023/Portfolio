@@ -1,72 +1,116 @@
 [
   {
     "id": "html5",
-    "image": "images/skills-logos/html-5.svg",
-    "title": "HTML5"
+    "image": "images/skills-logos/html-5.webp",
+    "title": "HTML5",
+    "alt": "Logo HTML5"
   },
   {
     "id": "css3",
-    "image": "images/skills-logos/css-3.svg",
-    "title": "CSS3"
+    "image": "images/skills-logos/css-3.webp",
+    "title": "CSS3",
+    "alt": "Logo CSS3"
   },
   {
     "id": "javascript",
-    "image": "images/skills-logos/javascript.svg",
-    "title": "JavaScript"
+    "image": "images/skills-logos/javascript.webp",
+    "title": "JavaScript",
+    "alt": "Logo JavaScript"
   },
   {
     "id": "react",
-    "image": "images/skills-logos/react.svg",
-    "title": "React"
+    "image": "images/skills-logos/react.webp",
+    "title": "React",
+    "alt": "Logo React"
   },
   {
     "id": "git",
-    "image": "images/skills-logos/git-icon.svg",
-    "title": "Git"
+    "image": "images/skills-logos/git-icon.webp",
+    "title": "Git",
+    "alt": "Logo Git"
   },
   {
     "id": "github",
-    "image": "images/skills-logos/github-icon.svg",
-    "title": "GitHub"
+    "image": "images/skills-logos/github-icon.webp",
+    "title": "GitHub",
+    "alt": "Logo GitHub"
   },
   {
     "id": "vscode",
-    "image": "images/skills-logos/visual-studio-code.svg",
-    "title": "Visual Studio"
+    "image": "images/skills-logos/visual-studio-code.webp",
+    "title": "Visual Studio",
+    "alt": "Logo Visual Studio Code"
   },
   {
     "id": "cypress",
-    "image": "images/skills-logos/cypress.svg",
-    "title": "Cypress"
+    "image": "images/skills-logos/cypress.webp",
+    "title": "Cypress",
+    "alt": "Logo Cypress"
   },
   {
     "id": "postman",
-    "image": "images/skills-logos/postman.svg",
-    "title": "Postman"
+    "image": "images/skills-logos/postman.webp",
+    "title": "Postman",
+    "alt": "Logo Postman"
   },
   {
     "id": "swagger",
-    "image": "images/skills-logos/swagger.svg",
-    "title": "Swagger"
+    "image": "images/skills-logos/swagger.webp",
+    "title": "Swagger",
+    "alt": "Logo Swagger"
   },
   {
     "id": "jira",
-    "image": "images/skills-logos/jira.svg",
-    "title": "Jira"
+    "image": "images/skills-logos/jira.webp",
+    "title": "Jira",
+    "alt": "Logo Jira"
   },
   {
     "id": "notion",
-    "image": "images/skills-logos/notion.svg",
-    "title": "Notion"
+    "image": "images/skills-logos/notion.webp",
+    "title": "Notion",
+    "alt": "Logo Notion"
   },
   {
     "id": "trello",
-    "image": "images/skills-logos/trello.svg",
-    "title": "Trello"
+    "image": "images/skills-logos/trello.webp",
+    "title": "Trello",
+    "alt": "Logo Trello"
   },
   {
     "id": "slack",
-    "image": "images/skills-logos/slack.svg",
-    "title": "Slack"
+    "image": "images/skills-logos/slack.webp",
+    "title": "Slack",
+    "alt": "Logo Slack"
+  },
+  {
+    "id": "faker",
+    "image": "images/skills-logos/faker.webp",
+    "title": "Faker",
+    "alt": "Logo Faker"
+  },
+  {
+    "id": "figma",
+    "image": "images/skills-logos/figma.webp",
+    "title": "Figma",
+    "alt": "Logo Figma"
+  },
+  {
+    "id": "test",
+    "image": "images/skills-logos/test.webp",
+    "title": "Test",
+    "alt": "Logo Test"
+  },
+  {
+    "id": "optimisation-debug",
+    "image": "images/skills-logos/optimisation-et-debug.webp",
+    "title": "Optimisation et Débug",
+    "alt": "Logo Optimisation et Débug"
+  },
+  {
+    "id": "gestion-projet",
+    "image": "images/skills-logos/gestion-de-projet.webp",
+    "title": "Gestion de Projet",
+    "alt": "Logo Gestion de Projet"
   }
 ]

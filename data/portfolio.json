@@ -1,235 +1,246 @@
 [
-    {
-        "id": "projet2",
-        "image": "images/projects/P2.svg",
-        "title": "Riding Cities",
-        "summary": "Création d’une section web à partir d’une maquette Figma, pour une association.",
-        "objective": "Concevoir une section accessible et responsive à intégrer dans un site existant.",
-        "work-done": [
-            "Structuration du contenu en HTML sémantique",
-            "Intégration en CSS à partir d’un design Figma",
-            "Ajout d’interactions simples (hover, liens)",
-            "Respect des bonnes pratiques d’accessibilité"
-        ],
-        "lien_github": "https://github.com/MarieC2023/OCProject2.git",
-        "lien_demo": "https://mariec2023.github.io/OCProject2/",
-        "downloads": [
-            {
-                "label": "Présentation du projet 2",
-                "file": "assets/documents/Presentation_P2.pdf"
-            }
-        ]
-    },
-    {
-        "id": "projet3",
-        "image": "images/projects/P3.svg",
-        "title": "Booki",
-        "summary": "Intégration d’un site responsive à partir d’une maquette Figma pour une agence de voyage fictive.",
-        "objective": "Transformer une maquette en site web accessible et adaptable à tous les écrans.",
-        "work-done": [
-            "Structuration du contenu avec HTML sémantique",
-            "Mise en page responsive en CSS",
-            "Fidélité au design Figma fourni",
-            "Respect de l’accessibilité et compatibilité multi-appareils"
-        ],
-        "lien_github": "https://github.com/MarieC2023/Booki_HTML-CSS.git",
-        "lien_demo": "https://mariec2023.github.io/Booki_HTML-CSS/",
-        "downloads": [
-            {
-                "label": "Présentation du projet 3",
-                "file": "assets/documents/Presentation_P3.pdf"
-            }
-        ]
-    },
-    {
-        "id": "projet4",
-        "image": "images/projects/P4.svg",
-        "title": "JSE Avocats",
-        "summary": "Campagne de tests fonctionnels sur un site web, dans un consummary professionnel simulé.",
-        "objective": "Valider les fonctionnalités existantes à l’aide d’un cahier de recette.",
-        "work-done": [
-            "Exécution pas-à-pas des cas de test définis",
-            "Tests exploratoires complémentaires",
-            "Suivi des résultats (OK/KO) et description des anomalies dans un fichier Excel"
-        ],
-        "downloads": [
-            {
-                "label": "Cahier de recette",
-                "file": "assets/documents/cahiers_de_recette_P4.xlsx"
-            },
-            {
-                "label": "Présentation du projet 4",
-                "file": "assets/documents/Presentation_P4.pdf"
-            }
-        ]
-    },
-    {
-        "id": "projet5",
-        "image": "images/projects/P5.svg",
-        "title": "724events",
-        "summary": "Campagne de tests exploratoires",
-        "objective": "Structurer les tests, assurer leur traçabilité, produire un reporting clair.",
-        "work-done": [
-            "Conception et exécution de tests exploratoires",
-            "Suivi des anomalies et des cas de test dans Jira",
-            "Rédaction d’un bilan de la campagne"
-        ],
-        "downloads": [
-            {
-                "label": "Bilan de campagne de tests",
-                "file": "assets/documents/bilan_de_campagne_de_tests_P5.pdf"
-            },
-            {
-                "label": "Présentation du projet 5",
-                "file": "assets/documents/Presentation_P5.pdf"
-            }
-        ]
-    },
-    {
-        "id": "projet6",
-        "image": "images/projects/P6.svg",
-        "title": "Print it",
-        "summary": "Développement d’un carrousel interactif en JavaScript",
-        "objective": "Rendre l’interface dynamique et accessible sans dépendance externe.",
-        "work-done": [
-            "Manipulation du DOM en JavaScript natif",
-            "Gestion des événements utilisateur (clics, clavier)",
-            "Conditions de navigation et transitions fluides"
-        ],
-        "lien_github": "https://github.com/MarieC2023/Print-it_JavaScript.git",
-        "lien_demo": "https://mariec2023.github.io/Print-it_JavaScript/",
-        "downloads": [
-            {
-                "label": "Présentation du projet 6",
-                "file": "assets/documents/Presentation_P6.pdf"
-            }
-        ]
-    },
-    {
-        "id": "projet7",
-        "image": "images/projects/P7.svg",
-        "title": "Sophie Bluel",
-        "summary": "Ajout de fonctionnalités dynamiques à un site existant",
-        "objective": "Structurer le JavaScript et intégrer des fonctionnalités interactives.",
-        "work-done": [
-            "Implémentation d’une galerie filtrable et d’une modale admin",
-            "Gestion du DOM et des événements",
-            "Requêtes API pour l’authentification et l’affichage des contenus"
-        ],
-        "lien_github": "https://github.com/MarieC2023/Sophie-Bluel_HTML-CSS-JS.git",
-        "downloads": [
-            {
-                "label": "Présentation du projet 7",
-                "file": "assets/documents/Presentation_P7.pdf"
-            }
-        ]
-    },
-    {
-        "id": "projet8",
-        "image": "images/projects/P8.svg",
-        "title": "Kasa",
-        "summary": "Développement d’une application de location immobilière avec React",
-        "objective": "Structurer un projet front-end complet avec React.",
-        "work-done": [
-            "Création de composants réutilisables",
-            "Mise en place du routage et des appels API",
-            "Ajout d’animations CSS pour améliorer l’expérience utilisateur"
-        ],
-        "lien_github": "https://github.com/MarieC2023/Kasa_app_loc_immo_React.git",
-        "downloads": [
-            {
-                "label": "Présentation du projet 8",
-                "file": "assets/documents/Presentation_P8.pdf"
-            }
-        ]
-    },
-    {
-        "id": "projet9",
-        "image": "images/projects/P9.svg",
-        "title": "Menu Maker by Qwenta",
-        "summary": "Planification et gestion agile d’un projet web",
-        "objective": "Cadrer le développement complet d’un site web via une démarche agile.",
-        "work-done": [
-            "Rédaction des spécifications techniques et fonctionnelles",
-            "Mise en place d’un Kanban structuré",
-            "Organisation et suivi du projet de A à Z"
-        ],
-        "downloads": [
-            {
-                "label": "Spécifications techniques",
-                "file": "assets/documents/specifications_techniques_P9.pdf"
-            },
-            {
-                "label": "Kanban",
-                "file": "assets/documents/kanban_P9.pdf"
-            },
-            {
-                "label": "Veille technique",
-                "file": "assets/documents/veille_P9.pdf"
-            },
-            {
-                "label": "Présentation du projet 9",
-                "file": "assets/documents/Presentation_P9.pdf"
-            }
-        ]
-    },
-    {
-        "id": "projet10",
-        "image": "images/projects/P10.svg",
-        "title": "Eco Bliss Bath",
-        "summary": "Tests automatisés avec Cypress sur un site e-commerce",
-        "objective": "Renforcer la couverture des tests et fournir des livrables exploitables par l’équipe QA.",
-        "work-done": [
-            "Mise en œuvre de tests fonctionnels, API et sécurité (XSS)",
-            "Automatisation des scénarios de tests",
-            "Production de rapports clairs pour le suivi qualité"
-        ],
-        "lien_github": "https://github.com/MarieC2023/automatisationTest.git",
-        "downloads": [
-            {
-                "label": "Rapport de testing",
-                "file": "assets/documents/rapport_de_testing_P10.pdf"
-            },
-            {
-                "label": "Présentation du projet 10",
-                "file": "assets/documents/Presentation_P10.pdf"
-            }
-        ]
-    },
-    {
-        "id": "projet11",
-        "image": "images/projects/P11.svg",
-        "title": "Tomsen by PayForge",
-        "summary": "Stratégie de test en consummary Agile",
-        "objective": "Structurer une démarche qualité globale adaptée aux enjeux métier.",
-        "work-done": [
-            "Revue des exigences et planification des sprints",
-            "Rédaction du cahier de recette et des scénarios de test"
-        ],
-        "downloads": [
-            {
-                "label": "Stratégie de test",
-                "file": "assets/documents/StrategieTest_P11.pdf"
-            },
-            {
-                "label": "Présentation du projet 11",
-                "file": "assets/documents/Presentation_P11.pdf"
-            }
-        ]
-    },
-    {
-        "id": "projet12",
-        "image": "images/projects/P12.svg",
-        "title": "Portfolio",
-        "summary": "Création de mon portfolio personnel",
-        "objective": "Valoriser mon parcours, mes projects, et démontrer mes compétences en développement et en test logiciel.",
-        "work-done": [
-            "Conception en HTML/CSS/JS",
-            "Mise en avant des projects réalisés",
-            "Présentation claire des compétences techniques"
-        ],
-         "lien_github": "https://github.com/MarieC2023/Portfolio.git",
-        "lien_demo": "https://mariec2023.github.io/Portfolio/",
-        "downloads": []
-    }
+  {
+    "id": "projet2",
+    "image": "images/projects/P2.webp",
+    "alt": "Maquette web pour une association",
+    "title": "Riding Cities",
+    "summary": "Création d’une section web à partir d’une maquette Figma, pour une association.",
+    "objective": "Concevoir une section accessible et responsive à intégrer dans un site existant.",
+    "work-done": [
+      "Structuration du contenu en HTML sémantique",
+      "Intégration en CSS à partir d’un design Figma",
+      "Ajout d’interactions simples (hover, liens)",
+      "Respect des bonnes pratiques d’accessibilité"
+    ],
+    "lien_github": "https://github.com/MarieC2023/OCProject2.git",
+    "lien_demo": "https://mariec2023.github.io/OCProject2/",
+    "downloads": [
+      {
+        "label": "Présentation du projet 2",
+        "file": "assets/documents/Presentation_P2.pdf"
+      }
+    ]
+  },
+  {
+    "id": "projet3",
+    "image": "images/projects/P3.webp",
+    "alt": "Interface responsive d’une agence de voyage fictive",
+    "title": "Booki",
+    "summary": "Intégration d’un site responsive à partir d’une maquette Figma pour une agence de voyage fictive.",
+    "objective": "Transformer une maquette en site web accessible et adaptable à tous les écrans.",
+    "work-done": [
+      "Structuration du contenu avec HTML sémantique",
+      "Mise en page responsive en CSS",
+      "Fidélité au design Figma fourni",
+      "Respect de l’accessibilité et compatibilité multi-appareils"
+    ],
+    "lien_github": "https://github.com/MarieC2023/Booki_HTML-CSS.git",
+    "lien_demo": "https://mariec2023.github.io/Booki_HTML-CSS/",
+    "downloads": [
+      {
+        "label": "Présentation du projet 3",
+        "file": "assets/documents/Presentation_P3.pdf"
+      }
+    ]
+  },
+  {
+    "id": "projet4",
+    "image": "images/projects/P4.webp",
+    "alt": "Interface d’un site d’avocats à tester",
+    "title": "JSE Avocats",
+    "summary": "Campagne de tests fonctionnels sur un site web, dans un consummary professionnel simulé.",
+    "objective": "Valider les fonctionnalités existantes à l’aide d’un cahier de recette.",
+    "work-done": [
+      "Exécution pas-à-pas des cas de test définis",
+      "Tests exploratoires complémentaires",
+      "Suivi des résultats (OK/KO) et description des anomalies dans un fichier Excel"
+    ],
+    "downloads": [
+      {
+        "label": "Cahier de recette",
+        "file": "assets/documents/cahiers_de_recette_P4.xlsx"
+      },
+      {
+        "label": "Présentation du projet 4",
+        "file": "assets/documents/Presentation_P4.pdf"
+      }
+    ]
+  },
+  {
+    "id": "projet5",
+    "image": "images/projects/P5.webp",
+    "alt": "Application événementielle testée en exploratoire",
+    "title": "724events",
+    "summary": "Campagne de tests exploratoires",
+    "objective": "Structurer les tests, assurer leur traçabilité, produire un reporting clair.",
+    "work-done": [
+      "Conception et exécution de tests exploratoires",
+      "Suivi des anomalies et des cas de test dans Jira",
+      "Rédaction d’un bilan de la campagne"
+    ],
+    "downloads": [
+      {
+        "label": "Bilan de campagne de tests",
+        "file": "assets/documents/bilan_de_campagne_de_tests_P5.pdf"
+      },
+      {
+        "label": "Présentation du projet 5",
+        "file": "assets/documents/Presentation_P5.pdf"
+      }
+    ]
+  },
+  {
+    "id": "projet6",
+    "image": "images/projects/P6.webp",
+    "alt": "Carrousel dynamique pour imprimerie",
+    "title": "Print it",
+    "summary": "Développement d’un carrousel interactif en JavaScript",
+    "objective": "Rendre l’interface dynamique et accessible sans dépendance externe.",
+    "work-done": [
+      "Manipulation du DOM en JavaScript natif",
+      "Gestion des événements utilisateur (clics, clavier)",
+      "Conditions de navigation et transitions fluides"
+    ],
+    "lien_github": "https://github.com/MarieC2023/Print-it_JavaScript.git",
+    "lien_demo": "https://mariec2023.github.io/Print-it_JavaScript/",
+    "downloads": [
+      {
+        "label": "Présentation du projet 6",
+        "file": "assets/documents/Presentation_P6.pdf"
+      }
+    ]
+  },
+  {
+    "id": "projet7",
+    "image": "images/projects/P7.webp",
+    "alt": "Site portfolio enrichi de JavaScript dynamique",
+    "title": "Sophie Bluel",
+    "summary": "Ajout de fonctionnalités dynamiques à un site existant",
+    "objective": "Structurer le JavaScript et intégrer des fonctionnalités interactives.",
+    "work-done": [
+      "Implémentation d’une galerie filtrable et d’une modale admin",
+      "Gestion du DOM et des événements",
+      "Requêtes API pour l’authentification et l’affichage des contenus"
+    ],
+    "lien_github": "https://github.com/MarieC2023/Sophie-Bluel_HTML-CSS-JS.git",
+    "downloads": [
+      {
+        "label": "Présentation du projet 7",
+        "file": "assets/documents/Presentation_P7.pdf"
+      }
+    ]
+  },
+  {
+    "id": "projet8",
+    "image": "images/projects/P8.webp",
+    "alt": "Application React pour location immobilière",
+    "title": "Kasa",
+    "summary": "Développement d’une application de location immobilière avec React",
+    "objective": "Structurer un projet front-end complet avec React.",
+    "work-done": [
+      "Création de composants réutilisables",
+      "Mise en place du routage et des appels API",
+      "Ajout d’animations CSS pour améliorer l’expérience utilisateur"
+    ],
+    "lien_github": "https://github.com/MarieC2023/Kasa_app_loc_immo_React.git",
+    "downloads": [
+      {
+        "label": "Présentation du projet 8",
+        "file": "assets/documents/Presentation_P8.pdf"
+      }
+    ]
+  },
+  {
+    "id": "projet9",
+    "image": "images/projects/P9.webp",
+    "alt": "Planification agile d’un projet de création de menus",
+    "title": "Menu Maker by Qwenta",
+    "summary": "Planification et gestion agile d’un projet web",
+    "objective": "Cadrer le développement complet d’un site web via une démarche agile.",
+    "work-done": [
+      "Rédaction des spécifications techniques et fonctionnelles",
+      "Mise en place d’un Kanban structuré",
+      "Organisation et suivi du projet de A à Z"
+    ],
+    "downloads": [
+      {
+        "label": "Spécifications techniques",
+        "file": "assets/documents/specifications_techniques_P9.pdf"
+      },
+      {
+        "label": "Kanban",
+        "file": "assets/documents/kanban_P9.pdf"
+      },
+      {
+        "label": "Veille technique",
+        "file": "assets/documents/veille_P9.pdf"
+      },
+      {
+        "label": "Présentation du projet 9",
+        "file": "assets/documents/Presentation_P9.pdf"
+      }
+    ]
+  },
+  {
+    "id": "projet10",
+    "image": "images/projects/P10.webp",
+    "alt": "Tests automatisés sur site e-commerce",
+    "title": "Eco Bliss Bath",
+    "summary": "Tests automatisés avec Cypress sur un site e-commerce",
+    "objective": "Renforcer la couverture des tests et fournir des livrables exploitables par l’équipe QA.",
+    "work-done": [
+      "Mise en œuvre de tests fonctionnels, API et sécurité (XSS)",
+      "Automatisation des scénarios de tests",
+      "Production de rapports clairs pour le suivi qualité"
+    ],
+    "lien_github": "https://github.com/MarieC2023/automatisationTest.git",
+    "downloads": [
+      {
+        "label": "Rapport de testing",
+        "file": "assets/documents/rapport_de_testing_P10.pdf"
+      },
+      {
+        "label": "Présentation du projet 10",
+        "file": "assets/documents/Presentation_P10.pdf"
+      }
+    ]
+  },
+  {
+    "id": "projet11",
+    "image": "images/projects/P11.webp",
+    "alt": "Stratégie de test pour une solution de paiement",
+    "title": "Tomsen by PayForge",
+    "summary": "Stratégie de test en consummary Agile",
+    "objective": "Structurer une démarche qualité globale adaptée aux enjeux métier.",
+    "work-done": [
+      "Revue des exigences et planification des sprints",
+      "Rédaction du cahier de recette et des scénarios de test"
+    ],
+    "downloads": [
+      {
+        "label": "Stratégie de test",
+        "file": "assets/documents/StrategieTest_P11.pdf"
+      },
+      {
+        "label": "Présentation du projet 11",
+        "file": "assets/documents/Presentation_P11.pdf"
+      }
+    ]
+  },
+  {
+    "id": "projet12",
+    "image": "images/projects/P12.webp",
+    "alt": "Présentation du portfolio personnel",
+    "title": "Portfolio",
+    "summary": "Création de mon portfolio personnel",
+    "objective": "Valoriser mon parcours, mes projects, et démontrer mes compétences en développement et en test logiciel.",
+    "work-done": [
+      "Conception en HTML/CSS/JS",
+      "Mise en avant des projects réalisés",
+      "Présentation claire des compétences techniques"
+    ],
+    "lien_github": "https://github.com/MarieC2023/Portfolio.git",
+    "lien_demo": "https://mariec2023.github.io/Portfolio/",
+    "downloads": []
+  }
 ]

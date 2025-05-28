@@ -11,7 +11,7 @@ async function loadSkills() {
 
       const img = document.createElement('img');
       img.src = skill.image;
-      img.alt = skill.title;
+      img.alt = skill.alt;
       img.title = skill.title;
 
       const span = document.createElement('span');

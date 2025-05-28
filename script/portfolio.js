@@ -8,7 +8,7 @@ function createPortfolioFromJSON() {
         const card = document.createElement("div");
         card.classList.add("project-card");
         card.innerHTML = `
-          <img src="${item.image}" alt="${item.title}">
+          <img src="${item.image}" alt="${item.alt}">
           <h3>${item.title}</h3>
          <button class="my-btn open-project-modal" data-id="${item.id}">
             En savoir plus
