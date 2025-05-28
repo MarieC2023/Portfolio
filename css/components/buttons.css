@@ -4,7 +4,7 @@
   margin-top: 20px;
 }
 
-button,
+
 .my-btn {
   background-color: transparent;
   color: var(--color-accent);
@@ -32,10 +32,9 @@ button,
   margin: 20px auto;
 }
 
-button:hover,
 .my-btn:hover {
-  background-color: #e05555;
-  color: var(--color-white);
+  background-color: var(--color-accent);
+  color: var(--color-buttons);
 }
 
 /* ===== TABLETTE : max 768px ===== */

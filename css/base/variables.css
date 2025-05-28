@@ -1,13 +1,13 @@
 :root {
+    /* ===== Thème sombre par défaut ===== */
   /* Couleurs principales */
   --color-bg: #121212;               /* Noir profond */
   --color-text: #EAEAEA;             /* Texte clair */
   --color-secondary: #2C3E50;        /* Gris bleuté */
   --color-accent: #FF6B6B;           /* Corail */
-  --color-white: #FFFFFF;
   --color-error: #C0392B;
   --color-success: #27AE60;
-
+  --color-buttons: #EAEAEA; 
 
   /* Typographies */
   --font-main: 'Inter', sans-serif;  /* Police de base */
@@ -21,4 +21,9 @@
 
   /* Arrondis */
   --radius: 0.5rem;
+
 }
+
+
+
+

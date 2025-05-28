@@ -4,7 +4,7 @@
   padding: 2rem;
   background: var(--color-bg);
   color: var(--color-text);
-  font-family: var(--font-main, Arial, sans-serif);
+  font-family: var(--font-main);
 }
 
 .text-center {
@@ -63,12 +63,12 @@
 }
 
 .form-message--success {
-  color: #fff;
+  color: var(--color-buttons);
   background-color: var(--color-success);
 }
 
 .form-message--error {
-  color: #fff;
+  color: var(--color-buttons);
   background-color: var(--color-error);
 }
 
