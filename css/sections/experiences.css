@@ -1,3 +1,4 @@
+/* ===== CONTAINER DES SOFT SKILLS ===== */
 .soft-skills-container {
   display: flex;
   flex-wrap: wrap;
@@ -6,82 +7,68 @@
   margin-top: 40px;
 }
 
-.skill-card {
-  background: var(--color-secondary);
-  padding: 20px;
-  margin: 5px;
+/* ===== CARTE SOFT SKILL ===== */
+.soft-skill {
+  background-color: var(--color-secondary);
   border-radius: var(--radius);
-  width: calc(33.333% - 70px);
+  padding: 1rem;
+  width: calc((100% / 3) - 20px);
   min-width: 280px;
-  box-sizing: border-box;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  color: #fff;
-  transition: transform 0.2s ease;
+  max-width: 400px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.skill-card:hover {
-  transform: translateY(-5px);
+.soft-skill:hover {
+  transform: scale(1.05);
 }
 
-.skill-card h4 {
+.soft-skill img {
+  max-height: 60px;
+  max-width: 100%;
+  object-fit: contain;
   margin-bottom: 0.5rem;
 }
 
-.skill-card p {
-  padding: 15px;
-  margin: 0;
+.soft-skill span {
+  font-size: 0.9rem;
+  color: var(--color-text);
+  font-family: var(--font-main);
 }
 
-/* ===== TABLETTE : max 768px ===== */
+/* ===== MEDIA QUERIES ===== */
+
+/* Tablette : max 768px */
 @media (max-width: 768px) {
-  .skill-card {
-    width: calc(50% - 20px);
-    min-width: 240px;
-    padding: 16px;
+  .soft-skills-container {
+    justify-content: center;
   }
 
-  .skill-card p {
-    padding: 10px;
-    font-size: 0.95rem;
+  .soft-skill {
+    flex: 1 1 45%;
+    max-width: 45%;
+    min-width: 280px;
+    box-sizing: border-box;
   }
 }
 
-/* ===== MOBILE LARGE : max 425px ===== */
+/* Mobile large : max 425px */
 @media (max-width: 425px) {
-  .skill-card {
+  .soft-skill {
     width: 100%;
-    min-width: unset;
-    padding: 14px;
-  }
-
-  .skill-card h4 {
-    font-size: 1.1rem;
-  }
-
-  .skill-card p {
-    padding: 8px;
-    font-size: 0.9rem;
+    min-width: auto;
+    max-width: none;
   }
 }
 
-/* ===== MOBILE PETIT : max 320px ===== */
+/* Mobile petit : max 320px */
 @media (max-width: 320px) {
   .soft-skills-container {
     gap: 12px;
     margin-top: 30px;
-  }
-
-  .skill-card {
-    width: 100%;
-    padding: 12px;
-  }
-
-  .skill-card h4 {
-    font-size: 1rem;
-  }
-
-  .skill-card p {
-    padding: 6px;
-    font-size: 0.85rem;
   }
 }

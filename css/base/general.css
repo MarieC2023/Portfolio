@@ -72,14 +72,12 @@ form textarea:focus {
   padding-top: 4rem;
 }
 
-#contact {
-  padding-bottom: 4rem;
-}
+
 
 /* ===== TABLETTE : max 768px ===== */
 @media (max-width: 768px) {
   html body {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     line-height: 1.5;
   }
 
@@ -88,7 +86,7 @@ form textarea:focus {
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: center;
   }
 
@@ -103,14 +101,14 @@ form textarea:focus {
 
   form input,
   form textarea {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
 }
 
 /* ===== MOBILE LARGE : max 425px ===== */
 @media (max-width: 425px) {
   html body {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 
   section {
@@ -118,12 +116,8 @@ form textarea:focus {
   }
 
   h2 {
-    font-size: 1.7rem;
-  }
-
-  form input,
-  form textarea {
-    font-size: 0.95rem;
+    font-size: 1.5rem;
+    text-align: center;
   }
 
   #about h2,
@@ -131,15 +125,20 @@ form textarea:focus {
   #portfolio h2,
   #contact h2,
   #experience h2 {
-    margin-bottom: 2rem;
+    margin-bottom: 1.8rem;
     padding-top: 2rem;
+  }
+
+  form input,
+  form textarea {
+    font-size: 0.9rem;
   }
 }
 
 /* ===== MOBILE PETIT : max 320px ===== */
 @media (max-width: 320px) {
   html body {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
   }
 
   section {
@@ -147,12 +146,8 @@ form textarea:focus {
   }
 
   h2 {
-    font-size: 1.5rem;
-  }
-
-  form input,
-  form textarea {
-    font-size: 0.9rem;
+    font-size: 1.3rem;
+    text-align: center;
   }
 
   #about h2,
@@ -162,5 +157,10 @@ form textarea:focus {
   #experience h2 {
     margin-bottom: 1.5rem;
     padding-top: 1.5rem;
+  }
+
+  form input,
+  form textarea {
+    font-size: 0.85rem;
   }
 }

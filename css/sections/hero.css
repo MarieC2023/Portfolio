@@ -42,13 +42,8 @@
   .homepage {
     flex-direction: column;
     align-items: flex-start;
-    text-align: left;
   }
 
-  .hero-title,
-  .hero-subtitle {
-    text-align: left;
-  }
 }
 
 /* ===== MOBILE PETIT : max 320px ===== */
