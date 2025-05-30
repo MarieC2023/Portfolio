@@ -1,4 +1,10 @@
 /* Section contact */
+/*partie anti-spam*/
+.hidden-honeypot {
+    position: absolute;
+    left: -9999px;
+}
+
 .contact-section {
   margin: 4rem 0;
   padding: 2rem;

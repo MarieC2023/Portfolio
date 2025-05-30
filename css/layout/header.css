@@ -77,11 +77,23 @@ nav.navbar.navbar-expand-lg.fixed-top.navbar-dark.navbarScroll.navbarDark {
   align-items: center;
   justify-content: center;
 }
+
 .theme-toggle-btn .theme-icon:hover {
   color: var(--color-accent) !important;
 }
+
 .theme-toggle-btn .theme-icon {
   display: block;
+  transition: color 0.3s ease;
+}
+
+.size-6 {
+  width: 32px;
+  height: 32px;
+}
+
+.theme-icon {
+  color: var(--color-accent);
   transition: color 0.3s ease;
 }
 

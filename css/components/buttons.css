@@ -6,7 +6,7 @@
 
 
 .my-btn {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.1);
   color: var(--color-accent);
   border: 2px solid var(--color-accent);
 
