@@ -1,10 +1,10 @@
 :root {
     /* ===== Thème sombre par défaut ===== */
   /* Couleurs principales */
-  --color-bg: #121212;               /* Noir profond */
-  --color-text: #EAEAEA;             /* Texte clair */
-  --color-secondary: #2C3E50;        /* Gris bleuté */
-  --color-accent: #FF6B6B;           /* Corail */
+  --color-bg: #121212;               
+  --color-text: #EAEAEA;             
+  --color-secondary: #2C3E50;        
+  --color-accent: #FF6B6B;          
   --color-error: #FF4D4D ;
   --color-success: #44D27C;
   --color-buttons: #EAEAEA; 

@@ -8,15 +8,13 @@
   /* ===== Thème clair ===== */
 
 .light-theme {
-  --color-bg: #E8F0F7;          
-  --color-text: #1C2331;        
-  --color-secondary: #A9B9CC;   
-  --color-accent: #4A90E2;      
-  --color-error: #D32F2F;      
-  --color-success: #388E3C;     
-  --color-buttons: #3F51B5;     
+ --color-bg: #FFF9F8;              
+--color-text: #2B2B2B;            
+--color-secondary: #F2EAEA;       
+--color-accent: #B33939;          
+--color-error: #E04E4E;
+--color-success: #70C199;
 }
-
 
 html body {
   margin: 0;
