@@ -97,7 +97,7 @@ Le site intègre plusieurs fonctionnalités pour offrir une expérience fluide e
 N’hésitez pas à me contacter ou à me suivre sur LinkedIn pour échanger autour du test logiciel !
 
 **Marie Collet**  
-🔗 [LinkedIn](https://www.linkedin.com/in/mariecollet)  
+🔗 [LinkedIn](https://www.linkedin.com/in/marie-collet-2a0278220)  
 📧 marie.collet2023@gmail.com  
 
 ---
