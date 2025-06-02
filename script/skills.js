@@ -1,11 +1,11 @@
-async function loadSkills() {
+const loadSkills = async () => {
   try {
     const response = await fetch('data/skills.json');
     const skills = await response.json();
 
     const track = document.getElementById('skillsTrack');
 
-    const createSkillCard = (skill) => {
+    const createSkillCard = skill => {
       const card = document.createElement('div');
       card.className = 'skill-card';
 
@@ -38,7 +38,6 @@ async function loadSkills() {
   } catch (error) {
     console.error('Erreur lors du chargement des compétences :', error);
   }
-}
+};
 
 loadSkills();
-

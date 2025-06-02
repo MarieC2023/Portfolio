@@ -1,16 +1,16 @@
-function createPortfolioFromJSON() {
+const createPortfolioFromJSON = () => {
   const container = document.querySelector("#portfolioCards");
 
   fetch("data/portfolio.json")
-    .then((response) => response.json())
-    .then((data) => {
-      data.forEach((item) => {
+    .then(response => response.json())
+    .then(data => {
+      data.forEach(item => {
         const card = document.createElement("div");
         card.classList.add("project-card");
         card.innerHTML = `
           <img src="${item.image}" alt="${item.alt}">
           <h3>${item.title}</h3>
-         <button class="my-btn open-project-modal" data-id="${item.id}">
+          <button class="my-btn open-project-modal" data-id="${item.id}">
             En savoir plus
           </button>
         `;
@@ -19,12 +19,10 @@ function createPortfolioFromJSON() {
       });
 
       setupProjectModal(data);
-
     });
-}
+};
 
-
-function setupProjectModal(data) {
+const setupProjectModal = (data) => {
   const modal = document.getElementById("projectModal");
   const modalTitle = document.getElementById("projectModalTitle");
   const modalDetails = document.getElementById("projectModalDetails");
@@ -96,13 +94,11 @@ function setupProjectModal(data) {
     modal.style.display = "none";
   };
 
-  window.addEventListener("click", (event) => {
+  window.addEventListener("click", event => {
     if (event.target === modal) {
       modal.style.display = "none";
     }
   });
-
-}
-
+};
 
 createPortfolioFromJSON();

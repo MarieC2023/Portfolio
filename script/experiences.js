@@ -1,11 +1,14 @@
-// Fonctions pour l'expérience professionnelle
-function createExperienceTimeline() {
+// Fonction pour créer la timeline d'expérience
+
+const createExperienceTimeline = () => {
   const container = document.querySelector(".timeline");
   const softSkillsContainer = document.querySelector(".soft-skills-container");
 
   fetch("data/expe.json")
     .then(response => response.json())
     .then(data => {
+      data.reverse(); 
+
       data.forEach((item, index) => {
         if (item.id === "exp6") {
           item.summary.forEach(skill => {
@@ -36,13 +39,13 @@ function createExperienceTimeline() {
         }
       });
 
-      setupModal(data);
+      setupModal(data); 
     });
-}
+};
 
+// Fonction pour configurer la modale des expériences
 
-
-function setupModal(data) {
+const setupModal = (data) => {
   const modal = document.getElementById("experienceModal");
   const modalTitle = document.getElementById("modalTitle");
   const modalCompany = document.getElementById("modalCompany");
@@ -57,11 +60,8 @@ function setupModal(data) {
       if (item) {
         modalTitle.textContent = item.title;
         modalCompany.textContent = `${item.company} – ${item.location} (${item.period})`;
-
-        // Nettoyer le contenu
         modalDetails.innerHTML = "";
 
-        // Missions
         if (item.missions) {
           const missionSection = document.createElement("div");
           missionSection.innerHTML = "<h5>Missions</h5><ul>" +
@@ -69,7 +69,6 @@ function setupModal(data) {
           modalDetails.appendChild(missionSection);
         }
 
-        // Outils
         if (item.tools) {
           const toolSection = document.createElement("div");
           toolSection.innerHTML = "<h5>Outils</h5><ul>" +
@@ -77,7 +76,6 @@ function setupModal(data) {
           modalDetails.appendChild(toolSection);
         }
 
-        // Compétences développées
         if (item.skills) {
           const skillsSection = document.createElement("div");
           skillsSection.innerHTML = "<h5>Compétences développées</h5><ul>" +
@@ -85,7 +83,6 @@ function setupModal(data) {
           modalDetails.appendChild(skillsSection);
         }
 
-        // Compétences transférables
         if (item.linkToTesting) {
           const testSection = document.createElement("div");
           testSection.innerHTML = "<h5 class='accent-title'>Transférables au métier de Testeur</h5><ul>" +
@@ -93,7 +90,6 @@ function setupModal(data) {
           modalDetails.appendChild(testSection);
         }
 
-        // Fichiers téléchargeables
         if (item.downloads) {
           const downloadSection = document.createElement("div");
           downloadSection.classList.add("downloads");
@@ -117,8 +113,7 @@ function setupModal(data) {
       modal.style.display = "none";
     }
   });
+};
 
-}
-
-
+// Appel initial
 createExperienceTimeline();
