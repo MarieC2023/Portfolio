@@ -98,7 +98,7 @@ N’hésitez pas à me contacter ou à me suivre sur LinkedIn pour échanger aut
 
 **Marie Collet**  
 🔗 [LinkedIn](https://www.linkedin.com/in/mariecollet)  
-📧 marie.collet@example.com  
+📧 marie.collet2023@gmail.com  
 
 ---
 
