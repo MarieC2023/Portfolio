@@ -83,9 +83,7 @@
   overflow: hidden;
 }
 
-/* ===== MEDIA QUERIES ===== */
-
-/* Tablette : max 768px */
+/* ===== TABLETTE : max 768px ===== */
 @media (max-width: 768px) {
   .skill-card {
     width: 120px;
@@ -102,7 +100,7 @@
   }
 }
 
-/* Mobile large : max 425px */
+/* ===== MOBILE LARGE : max 425px ===== */
 @media (max-width: 425px) {
   @media (max-width: 425px) {
     .skill-card {
@@ -125,10 +123,9 @@
       font-size: 0.75rem;
     }
   }
-
 }
 
-/* Mobile petit : max 320px */
+/* ===== MOBILE PETIT : max 320px ===== */
 @media (max-width: 320px) {
   .skill-card {
     padding: 12px;

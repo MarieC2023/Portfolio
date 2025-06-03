@@ -47,9 +47,7 @@
     display: block;
 }
 
-/* ===============================
-   Responsive global : Tablette
-   =============================== */
+/* ===== TABLETTE : max 992px ===== */
 @media (max-width: 992px) {
     .footer-container {
         flex-wrap: wrap;
@@ -67,9 +65,7 @@
     }
 }
 
-/* ===============================
-   Responsive global : Mobile
-   =============================== */
+/* ===== MOBILE : max 576px ===== */
 @media (max-width: 576px) {
     .footer {
         padding: 1rem;

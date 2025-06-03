@@ -40,9 +40,9 @@
   font-family: var(--font-main);
 }
 
-/* ===== MEDIA QUERIES ===== */
 
-/* Tablette : max 768px */
+/* ===== TABLETTE : max 768px ===== */
+
 @media (max-width: 768px) {
   .soft-skills-container {
     justify-content: center;
@@ -56,7 +56,7 @@
   }
 }
 
-/* Mobile large : max 425px */
+/* ===== MOBILE LARGE : max 425px ===== */
 @media (max-width: 425px) {
   .soft-skill {
     width: 100%;
@@ -65,7 +65,7 @@
   }
 }
 
-/* Mobile petit : max 320px */
+/* ===== MOBILE PETIT : max 320px ===== */
 @media (max-width: 320px) {
   .soft-skills-container {
     gap: 12px;

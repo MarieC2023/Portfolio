@@ -1,3 +1,5 @@
+// Fonction pour créer la section portfolio
+
 const createPortfolioFromJSON = () => {
   const container = document.querySelector("#portfolioCards");
   const filterContainer = document.querySelector("#portfolioFilters");
@@ -68,9 +70,10 @@ const createPortfolioFromJSON = () => {
     });
 };
 
+// Fonction pour configurer la modale des projets
+
 const setupProjectModal = (data) => {
   const modal = document.getElementById("projectModal");
-  const modalTitle = document.getElementById("projectModalTitle");
   const modalDetails = document.getElementById("projectModalDetails");
   const closeBtn = modal.querySelector(".close");
 
@@ -80,24 +83,24 @@ const setupProjectModal = (data) => {
       const item = data.find(proj => proj.id === id);
 
       if (item) {
-        modalTitle.textContent = item.title;
-        modalDetails.innerHTML = ""; // Nettoyage
+        modalDetails.innerHTML = ""; 
 
-        // Résumé du projet
+        const title = document.createElement("h3");
+        title.textContent = item.title;
+        modalDetails.prepend(title); 
+
         if (item.summary) {
           const summarySection = document.createElement("div");
           summarySection.innerHTML = `<h4>Résumé du projet</h4><p>${item.summary}</p>`;
           modalDetails.appendChild(summarySection);
         }
 
-        // Objectif
         if (item.objective) {
           const objectiveSection = document.createElement("div");
           objectiveSection.innerHTML = `<h4>Objectif</h4><p>${item.objective}</p>`;
           modalDetails.appendChild(objectiveSection);
         }
 
-        // Travail réalisé
         if (item["work-done"] && Array.isArray(item["work-done"])) {
           const workDoneSection = document.createElement("div");
           workDoneSection.innerHTML = "<h4>Travail réalisé</h4><ul>" +
@@ -105,7 +108,6 @@ const setupProjectModal = (data) => {
           modalDetails.appendChild(workDoneSection);
         }
 
-        // Lien GitHub
         if (item.lien_github) {
           const githubLink = document.createElement("div");
           githubLink.classList.add("downloads");
@@ -113,7 +115,6 @@ const setupProjectModal = (data) => {
           modalDetails.appendChild(githubLink);
         }
 
-        // Lien Démo
         if (item.lien_demo) {
           const demoLink = document.createElement("div");
           demoLink.classList.add("downloads");
@@ -121,7 +122,6 @@ const setupProjectModal = (data) => {
           modalDetails.appendChild(demoLink);
         }
 
-        // Livrables téléchargeables
         if (item.downloads) {
           const downloadSection = document.createElement("div");
           downloadSection.classList.add("downloads");

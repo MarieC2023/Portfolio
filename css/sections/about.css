@@ -10,8 +10,8 @@
   flex-wrap: wrap;
 }
 
-/* ===== TABLETTE : max 850px ===== */
-@media (max-width: 810px) {
+/* ===== TABLETTE : max 768px ===== */
+@media (max-width: 768px) {
   #about .row {
     flex-direction: column;
   }

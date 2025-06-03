@@ -99,6 +99,7 @@ nav.navbar.navbar-expand-lg.fixed-top.navbar-dark.navbarScroll.navbarDark {
 
 /* ===== MEDIA QUERIES ===== */
 
+/* ===== DESKTOP Petit écran : max 1200px et 992px ===== */
 @media (min-width: 992px) and (max-width: 1200px) {
   .nav-link {
     font-size: 0.95rem;
@@ -155,6 +156,7 @@ nav.navbar.navbar-expand-lg.fixed-top.navbar-dark.navbarScroll.navbarDark {
   }
 }
 
+/* ===== TABLETTE : max 768px ===== */
 @media (max-width: 768px) {
   .navbar-container {
     flex-wrap: wrap;
@@ -191,6 +193,7 @@ nav.navbar.navbar-expand-lg.fixed-top.navbar-dark.navbarScroll.navbarDark {
   }
 }
 
+/* ===== MOBILE LARGE : max 425px ===== */
 @media (max-width: 425px) {
   .navbar-container {
     flex-wrap: nowrap;
@@ -216,6 +219,7 @@ nav.navbar.navbar-expand-lg.fixed-top.navbar-dark.navbarScroll.navbarDark {
   }
 }
 
+/* ===== MOBILE PETIT : max 320px ===== */
 @media (max-width: 320px) {
   .navbar-container {
     flex-wrap: nowrap;

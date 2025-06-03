@@ -38,8 +38,39 @@
   {
     "id": "vscode",
     "image": "images/skills-logos/visual-studio-code.webp",
-    "title": "Visual Studio",
+    "title": "Visual Studio Code",
     "alt": "Logo Visual Studio Code"
+  },
+  {
+    "id": "nodejs",
+    "image": "images/skills-logos/nodejs.webp",
+    "title": "Node.js",
+    "alt": "Logo Node.js"
+  },
+  {
+    "id": "npm",
+    "image": "images/skills-logos/npm.webp",
+    "title": "npm",
+    "alt": "Logo npm"
+  },
+  {
+    "id": "bash",
+    "image": "images/skills-logos/bash.webp",
+    "title": "Bash",
+    "alt": "Logo Bash"
+  },
+  {
+    "id": "docker",
+    "image": "images/skills-logos/docker.webp",
+    "title": "Docker",
+    "alt": "Logo Docker"
+  },
+  {
+    "id": "wordpress",
+    "image": "images/skills-logos/wordpress.webp",
+    "title": "WordPress",
+    "alt": "Logo WordPress",
+    "category": "Outils de développement"
   },
   {
     "id": "cypress",
@@ -58,6 +89,42 @@
     "image": "images/skills-logos/swagger.webp",
     "title": "Swagger",
     "alt": "Logo Swagger"
+  },
+  {
+    "id": "faker",
+    "image": "images/skills-logos/faker.webp",
+    "title": "Faker",
+    "alt": "Logo Faker"
+  },
+  {
+    "id": "test",
+    "image": "images/skills-logos/test.webp",
+    "title": "Test",
+    "alt": "Logo Test"
+  },
+  {
+    "id": "rest-api",
+    "image": "images/skills-logos/api-rest.webp",
+    "title": "API REST",
+    "alt": "Logo API REST"
+  },
+  {
+    "id": "microsoft-office",
+    "image": "images/skills-logos/office-365.webp",
+    "title": "Microsoft Office",
+    "alt": "Logo Microsoft Office"
+  },
+  {
+    "id": "google-workspace",
+    "image": "images/skills-logos/google-workspace.webp",
+    "title": "Google Workspace",
+    "alt": "Logo Google Workspace"
+  },
+  {
+    "id": "outlook",
+    "image": "images/skills-logos/outlook.webp",
+    "title": "Outlook",
+    "alt": "Logo Outlook"
   },
   {
     "id": "jira",
@@ -84,10 +151,10 @@
     "alt": "Logo Slack"
   },
   {
-    "id": "faker",
-    "image": "images/skills-logos/faker.webp",
-    "title": "Faker",
-    "alt": "Logo Faker"
+    "id": "agile-scrum",
+    "image": "images/skills-logos/scrum.webp",
+    "title": "Agile / Scrum",
+    "alt": "Logo Agile Scrum"
   },
   {
     "id": "figma",
@@ -96,10 +163,28 @@
     "alt": "Logo Figma"
   },
   {
-    "id": "test",
-    "image": "images/skills-logos/test.webp",
-    "title": "Test",
-    "alt": "Logo Test"
+    "id": "bootstrap",
+    "image": "images/skills-logos/bootstrap.webp",
+    "title": "Bootstrap",
+    "alt": "Logo Bootstrap"
+  },
+  {
+    "id": "media-queries",
+    "image": "images/skills-logos/media-queries.webp",
+    "title": "Media Queries",
+    "alt": "Icône Media Queries"
+  },
+  {
+    "id": "lighthouse",
+    "image": "images/skills-logos/lighthouse.webp",
+    "title": "Lighthouse",
+    "alt": "Logo Lighthouse"
+  },
+  {
+    "id": "wave",
+    "image": "images/skills-logos/wave.webp",
+    "title": "WAVE",
+    "alt": "Logo WAVE"
   },
   {
     "id": "optimisation-debug",

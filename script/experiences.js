@@ -47,8 +47,7 @@ const createExperienceTimeline = () => {
 
 const setupModal = (data) => {
   const modal = document.getElementById("experienceModal");
-  const modalTitle = document.getElementById("modalTitle");
-  const modalCompany = document.getElementById("modalCompany");
+  const modalHeader = document.getElementById("modalHeader");
   const modalDetails = document.getElementById("modalDetails");
   const closeBtn = modal.querySelector(".close");
 
@@ -58,9 +57,16 @@ const setupModal = (data) => {
       const item = data.find(exp => exp.id === id);
 
       if (item) {
-        modalTitle.textContent = item.title;
-        modalCompany.textContent = `${item.company} – ${item.location} (${item.period})`;
+        modalHeader.innerHTML = "";
         modalDetails.innerHTML = "";
+
+        const titleEl = document.createElement("h3");
+        titleEl.textContent = item.title;
+        modalHeader.appendChild(titleEl);
+
+        const companyEl = document.createElement("h4");
+        companyEl.textContent = `${item.company} – ${item.location} (${item.period})`;
+        modalHeader.appendChild(companyEl);
 
         if (item.missions) {
           const missionSection = document.createElement("div");
@@ -115,5 +121,4 @@ const setupModal = (data) => {
   });
 };
 
-// Appel initial
 createExperienceTimeline();

@@ -23,13 +23,11 @@ const loadSkills = async () => {
       return card;
     };
 
-    // Générer une fois la liste
     skills.forEach(skill => {
       const card = createSkillCard(skill);
       track.appendChild(card);
     });
 
-    // Dupliquer pour effet infini
     skills.forEach(skill => {
       const card = createSkillCard(skill);
       track.appendChild(card);
