@@ -19,7 +19,7 @@ const createPortfolioFromJSON = () => {
       });
 
       // Étape 2 : création des boutons de filtre
-      const allCategories = ["tous", ...Array.from(categories)];
+      const allCategories = [...Array.from(categories), "tous"];
       allCategories.forEach(filter => {
         const button = document.createElement("button");
         button.textContent = filter.charAt(0).toUpperCase() + filter.slice(1);
