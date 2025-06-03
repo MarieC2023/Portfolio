@@ -30,17 +30,17 @@ const createPortfolioFromJSON = () => {
 
       // Étape 3 : fonction pour générer les cartes selon le filtre
       const renderCards = (filter = "tous") => {
-        container.innerHTML = ""; 
+        container.innerHTML = "";
 
         const filteredData = filter === "tous"
           ? data
           : data.filter(item => {
-              if (Array.isArray(item.categorie)) {
-                return item.categorie.includes(filter);
-              } else {
-                return item.categorie === filter;
-              }
-            });
+            if (Array.isArray(item.categorie)) {
+              return item.categorie.includes(filter);
+            } else {
+              return item.categorie === filter;
+            }
+          });
 
         filteredData.forEach(item => {
           const card = document.createElement("div");
@@ -55,10 +55,10 @@ const createPortfolioFromJSON = () => {
           container.appendChild(card);
         });
 
-        setupProjectModal(data); 
+        setupProjectModal(data);
       };
 
-      renderCards(); 
+      renderCards();
 
       // Étape 4 : gestion des clics sur les boutons
       document.querySelectorAll(".filter-btn").forEach(btn => {
@@ -83,11 +83,11 @@ const setupProjectModal = (data) => {
       const item = data.find(proj => proj.id === id);
 
       if (item) {
-        modalDetails.innerHTML = ""; 
+        modalDetails.innerHTML = "";
 
         const title = document.createElement("h3");
         title.textContent = item.title;
-        modalDetails.prepend(title); 
+        modalDetails.prepend(title);
 
         if (item.summary) {
           const summarySection = document.createElement("div");

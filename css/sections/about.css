@@ -11,7 +11,7 @@
 }
 
 /* ===== TABLETTE : max 768px ===== */
-@media (max-width: 768px) {
+@media (min-width: 426px) and (max-width: 991px) {
   #about .row {
     flex-direction: column;
   }
@@ -45,7 +45,8 @@
 @media (max-width: 425px) {
   .imageAboutPage {
     max-width: 200px;
-    margin-bottom: 1rem;
+    display: block;
+    margin: 0 auto 1rem auto;
   }
 
   #about p,

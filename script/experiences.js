@@ -7,7 +7,7 @@ const createExperienceTimeline = () => {
   fetch("data/expe.json")
     .then(response => response.json())
     .then(data => {
-      data.reverse(); 
+      data.reverse();
 
       data.forEach((item, index) => {
         if (item.id === "exp6") {
@@ -39,7 +39,7 @@ const createExperienceTimeline = () => {
         }
       });
 
-      setupModal(data); 
+      setupModal(data);
     });
 };
 

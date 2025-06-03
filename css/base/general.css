@@ -5,15 +5,15 @@
 }
 
 
-  /* ===== Thème clair ===== */
+/* ===== Thème clair ===== */
 
 .light-theme {
- --color-bg: #FFF9F8;              
---color-text: #2B2B2B;            
---color-secondary: #F2EAEA;       
---color-accent: #B33939;          
---color-error: #E04E4E;
---color-success: #70C199;
+  --color-bg: #FFF9F8;
+  --color-text: #2B2B2B;
+  --color-secondary: #F2EAEA;
+  --color-accent: #B33939;
+  --color-error: #E04E4E;
+  --color-success: #70C199;
 }
 
 html body {

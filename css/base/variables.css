@@ -1,16 +1,16 @@
 :root {
-    /* ===== Thème sombre par défaut ===== */
+  /* ===== Thème sombre par défaut ===== */
   /* Couleurs principales */
-  --color-bg: #121212;               
-  --color-text: #EAEAEA;             
-  --color-secondary: #2C3E50;        
-  --color-accent: #FF6B6B;          
-  --color-error: #FF4D4D ;
+  --color-bg: #121212;
+  --color-text: #EAEAEA;
+  --color-secondary: #2C3E50;
+  --color-accent: #FF6B6B;
+  --color-error: #FF4D4D;
   --color-success: #44D27C;
-  --color-buttons: #EAEAEA; 
+  --color-buttons: #EAEAEA;
 
   /* Typographies */
-  --font-main: 'Inter', sans-serif; 
+  --font-main: 'Inter', sans-serif;
   --font-size: 1.15rem;
 
 
@@ -23,7 +23,3 @@
   --radius: 0.5rem;
 
 }
-
-
-
-
