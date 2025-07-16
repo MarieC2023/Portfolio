@@ -261,5 +261,23 @@
         "file": "assets/documents/Presentation_P12.pdf"
       }
     ]
-  }
+  },
+  {
+  "id": "projetFM",
+  "categorie": "Développement",
+  "image": "images/projects/PFR.webp",
+  "alt": "Capture d’écran de la page d’accueil du site Familles Rurales",
+  "title": "Site Familles Rurales",
+  "summary": "Création du site vitrine de l’association Familles Rurales de Saint-Georges-des-Gardes.",
+  "objective": "Développer un site accessible et responsive pour renforcer la visibilité d’une association locale et faciliter la diffusion d’informations aux familles.",
+  "work-done": [
+    "Intégration du contenu à partir d’un ancien site",
+    "Développement d’un site multipage avec React Router",
+    "Création de composants réutilisables",
+    "Mise en place de documents téléchargeables",
+    "Structuration du code CSS en modules"
+  ],
+  "lien_github": "https://github.com/MarieC2023/FamillesRuralesSGG.git",
+  "lien_demo": "https://familles-rurales-sgg.vercel.app/"
+}
 ]
